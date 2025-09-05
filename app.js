@@ -11,11 +11,7 @@ function agregaAmigos(){
     }
         else
             amigos.push(valor);
-
-amigos.forEach((nombre, i) => {
-    console.log("Posición " + i + ": " + nombre);
-})
-        console.log(amigos)
+            console.log(amigos.value)
      valor.value = "";
         valor.focus();
 }
