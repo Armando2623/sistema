@@ -11,10 +11,7 @@ function agregaAmigos() {
     }
     else
     amigos.push(valor.value);
-amigos.forEach(amigo => {
-  console.log(amigo);
-})
-   // console.log(amigos.values)
+   console.log(valor.value)
     valor.value = "";
     valor.focus();
 
@@ -31,5 +28,9 @@ function sortearAmigo(){
     let indice = Math.floor(Math.random() * amigos.length);
    
   console.log(amigos[indice]);
+
+}
+
+function asignarTextoElemento(){
 
 }
