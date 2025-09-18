@@ -22,7 +22,6 @@ function sortearAmigo() {
         console.log("Agrega nombres de amigos")
     }
     let indice = Math.floor(Math.random() * amigos.length);
-
 document.getElementById("listaAmigos").innerHTML="";
 
 let li = document.createElement("li");
