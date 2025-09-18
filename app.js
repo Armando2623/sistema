@@ -23,13 +23,13 @@ function sortearAmigo() {
     }
     let indice = Math.floor(Math.random() * amigos.length);
 
-    console.log(amigos[indice]);
+document.getElementById("listaAmigos").innerHTML="";
 
+let li = document.createElement("li");
+li.textContent = `El amigo secreto elegido es: ${amigos[indice]}`;
+document.getElementById("listaAmigos").appendChild(li);   
 }
 
-function asignarTextoElemento() {
-
-}
 function mostrarEnPantalla(){
     let li = document.createElement("li");
     li.textContent = valor.value;
